@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background-color: white;
+    color: #000;
+    text-align: center;
+}
+header>nav {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+    padding: 20px 0;
+    margin: 0;
+    background-color: white;
+    font-size: 1.1rem;
+}
+header a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+.site-title {
+    font-size: 2rem;
+    color: #5f4bb6;
+    margin-top: 30px;
+}
+.welcome-section {
+    margin: 40px auto;
+    max-width: 700px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+.leagues-image {
+    margin-top: 30px;
+    width: 600px;
+
+}
+.page2 {
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.page2video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+.video1 {
+    width:300px;
+    height: 180px;
+    background-color: #000;
+    border: 2px solid #222;
+}
+.page3video{
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.video-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+.video2 {
+    width: 300px;
+    height: 180px;
+    border: none;
+}
