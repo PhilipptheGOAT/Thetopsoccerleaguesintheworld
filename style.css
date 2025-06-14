@@ -73,4 +73,23 @@ header a {
     width: 300px;
     height: 180px;
     border: none;
+} 
+.page4video {
+    margin-top: 40px;
+    font-size: 2rem;
+}
+.video-grid1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    justify-items: center;
+    margin: 40px auto;
+    max-width: 1000px;
+}
+.video-grid1 iframe {
+    width: 100%;
+    max-width: 450px;
+    height: 250px;
+    border: 3px solid #5f4bb6;
+    border-radius: 8px;
 }
